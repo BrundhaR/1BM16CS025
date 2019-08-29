@@ -1,0 +1,15 @@
+#q 3a
+m1<-as.matrix(df, nrow=5, ncol=5,byrow=T)
+m1
+
+names<-c('Thistle','Vipers','Golden Rain','Yellowalfala','Blackberry')
+l1=list(name,m1)
+l1
+str(l1)
+
+#q 3b
+numeric_data<-c(10,20,30,40,50)
+string_data<-c('BMS','PES','RV')
+l2<-list(numeric_data, string_data,l1)
+l2
+str(l2)
