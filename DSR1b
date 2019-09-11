@@ -1,7 +1,0 @@
-path="D:/Brundha/DSR"
-setwd(path)
-marks=read.delim("marksheet.csv")
-val_new=vector(mode="numeric",length =length(marks$subject1))
-marks$subject3<- seq.int(nrow(marks))
-write.table(marks,file="newfile.csv", sep= "\t", row.names=FALSE)
-marks
