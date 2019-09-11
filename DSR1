@@ -19,5 +19,6 @@ write.table(marks,file="newfile.csv", sep= "\t", row.names=FALSE)
 marks
 
 
+
 '''c)Factorize the income field in any csv file imported to different Levels by creating a new factor field 
 and attach to the original File'''
