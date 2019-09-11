@@ -1,0 +1,4 @@
+path="D:/Brundha/DSR"
+setwd(path)
+dataval=read.csv("Marksheet.csv")
+plot(dataval$subject1,dataval$subject2)
