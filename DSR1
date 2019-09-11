@@ -2,8 +2,8 @@
 
 path="D:/Brundha/DSR"
 setwd(path)
-dataval=read.csv("Marksheet.csv")
-plot(dataval$subject1,dataval$subject2)
+marks=read.csv("Marksheet.csv")
+plot(marks$subject1,marks$subject2)
 
 
 
@@ -20,5 +20,12 @@ marks
 
 
 
-'''c)Factorize the income field in any csv file imported to different Levels by creating a new factor field 
+'''c)Factorize the field in any csv file imported to different Levels by creating a new factor field 
 and attach to the original File'''
+
+path="D:/Brundha/DSR"
+setwd(path)
+marks=read.csv("Marksheet.csv")
+grade_levels <- as.factor(marks$grade)
+marks$grade_levels<-grade_levels
+
